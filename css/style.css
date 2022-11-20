@@ -1,0 +1,122 @@
+/* estilos generales para toda la página */
+body {
+	font-family: 'Monserrat', cursive;
+	margin: 0;
+}
+
+.bg-color-info {
+	background-color: rgb(244, 246, 251);
+}
+
+.font-color-general {
+	color: rgb(67, 105, 176);
+}
+
+.brand-name {width: 25%;
+	height: auto;
+
+	color: rgb(67, 105, 176);
+	margin-left: 2rem;
+}
+
+.bg-img-principal {
+	background-image: url("../assets/images/main.jpg");
+	background-size: cover;
+	height: 650px;
+	background-position: center center;
+}
+
+.bloque-texto-principal {
+	margin-top:0;
+	background-color: aqua;
+}
+/*formulario*/
+.flex-container {
+	width:95%;
+	height:auto;
+    margin-top: 80px;
+	margin-left: auto;
+	margin-right:auto;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: center;
+	background:rgb(67, 105, 176);
+	padding: 20px;
+	border: 8px solid #000;
+	outline: 4px solid #094;
+
+}
+
+.form{
+	min-width: 75%;
+	flex:  1;
+	text-align:center ; 
+	padding:30px;
+	order: 5}
+
+	
+	#form_input{
+		width: 100%;
+	   padding:7px;
+	   margin: 6px 0 ;
+	   border: none;
+	   border-bottom: 3px  solid #094;
+	   background:silver;
+	   color: rgb(220, 220, 228);
+	   
+	   
+	   }
+	   #form_input :focus {background: linear-gradient(to bottom, transparent, #111);
+		outline: none;
+		width: 100%;
+		
+		border-bottom: 3px solid rgb(33, 7, 66);}
+		
+		.form textarea { min-height: 140px;
+		resize: none; }
+
+#form_input[type="submit"] {background-color: #094;
+border-bottom: none;
+padding:12px ;}
+
+#form_input[type="submit"]:hover {background-color: #072;
+border-bottom: none;
+padding:12px ;}
+#form_input[type="submit"]:focus {background-color: #094;
+}
+#form_input[type="submit"]:active {background: linear-gradient(to bottom,#072, #050);
+}
+
+.bg-color-azul {
+	background-color: rgb(67, 105, 176);
+}
+
+.hrblanco {
+	width: 10%;
+	background-color: white;
+}
+
+.hrazul {
+	width: 10%;
+	background-color: rgb(244, 246, 251);
+}
+
+
+/* estilos para pantallas menores a 992px (menor que lg de bootstrap) */
+@media only screen and (max-width : 992px) {
+
+	.brand-name {width: 80%;
+		
+		color: rgb(67, 105, 176);
+		margin-left: 1rem;
+	}
+
+	/* tenemos 1 imagen específica para móvil */
+	.bg-img-principal {
+		background-image: url("../assets/images/main_movil.png");
+		background-size: cover;
+		height: 500px;
+		background-position: center center;	
+	}	
+}
