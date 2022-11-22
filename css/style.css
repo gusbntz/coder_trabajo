@@ -18,6 +18,23 @@ body {
 	color: rgb(67, 105, 176);
 	margin-left: 2rem;
 }
+.calendario {
+	width: 40%;
+	height: auto;
+	margin-left: 5%;
+	
+	
+	
+	background-color: rgba(250, 235, 215, 0.342);
+ }
+ 
+
+
+.rounded {width: 30%;
+height:auto;
+
+}
+
 
 .bg-img-principal {
 	background-image: url("../assets/images/main.jpg");
@@ -32,7 +49,7 @@ body {
 }
 /*formulario*/
 .flex-container {
-	width:95%;
+	width:99%;
 	height:auto;
     margin-top: 80px;
 	margin-left: auto;
@@ -43,11 +60,15 @@ body {
 	justify-content: center;
 	background:rgb(67, 105, 176);
 	padding: 20px;
-	border: 8px solid #000;
-	outline: 4px solid #094;
+	border: 3px solid #000;
+	outline: 4px solid rgb(66, 82, 221);
 
 }
+.formulario{ width:350px;
+height: auto;
+}
 
+	
 .form{
 	min-width: 75%;
 	flex:  1;
@@ -61,9 +82,9 @@ body {
 	   padding:7px;
 	   margin: 6px 0 ;
 	   border: none;
-	   border-bottom: 3px  solid #094;
-	   background:silver;
-	   color: rgb(220, 220, 228);
+	   border-bottom: 3px  solid rgb(98, 159, 216);
+	   background:rgb(246, 250, 252);
+	   color: rgb(1, 13, 17);
 	   
 	   
 	   }
@@ -76,16 +97,16 @@ body {
 		.form textarea { min-height: 140px;
 		resize: none; }
 
-#form_input[type="submit"] {background-color: #094;
+#form_input[type="submit"] {background-color: rgb(93, 162, 189);
 border-bottom: none;
 padding:12px ;}
 
-#form_input[type="submit"]:hover {background-color: #072;
+#form_input[type="submit"]:hover {background-color: rgba(35, 53, 54, 0.747);
 border-bottom: none;
 padding:12px ;}
-#form_input[type="submit"]:focus {background-color: #094;
+#form_input[type="submit"]:focus {background-color: rgb(15, 61, 80);
 }
-#form_input[type="submit"]:active {background: linear-gradient(to bottom,#072, #050);
+#form_input[type="submit"]:active {background: linear-gradient(to bottom,rgb(17, 108, 192), #050);
 }
 
 .bg-color-azul {
