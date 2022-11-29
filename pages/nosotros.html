@@ -18,7 +18,7 @@
 
 	<!-- iconos de friconix-->
 	<script defer src="https://friconix.com/cdn/friconix.js"></script>
-
+	<script defer src="/path/to/friconix.js"> </script>
 	<title>RAFIKI</title>
 </head>
 
@@ -43,7 +43,7 @@
 
 	<!-- INICIO NAVBAR -->
 	<nav class="navbar navbar-expand-lg sticky-top bg-light">
-		<img src="../assets/images/logo.jpg" class="brand-name">
+		<a href="./contacto.html"><img src="../assets/images/logo.jpg" class="brand-name"></a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
 			aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="font-color-general"><i class="fi-xwsrxl-ellipsis"></i></span>
@@ -72,29 +72,30 @@
 	<!-- INICIO SECCIÓN NOSOTROS-->
 	<main>
 
-		<section class="container-fluid bg-color-azul p-3" id="nosotros">
 
-			<h1 class="text-white text-center p-3">
-				¿Quiénes somos?
-			</h1>
 
-			<hr class="hrblanco">
+		<section class="container-fluid" id="nosotros">
 
-			<div class="row  align-items-center">
-				<div class="col-6 col-lg-4">
-					<video width="420" height="420" autoplay muted loop>
+			<h4 class="text-center p-4 font-color-general">
+				¿Quienes somos?
+			</h4>
+
+			<hr class="hrazul">
+
+			<div class="row">
+				<div class="col-12 col-lg-4 bg-color-info">
+
+					<video width="440" height="430" autoplay muted loop>
 						<source src="../assets/videos/cats.mp4" type="video/mp4">
 						</source>
 					</video>
 
-
-
-
 				</div>
-				<div class="col-5 col-lg-4 text-white p-5">
 
+				<div class="col-12 col-lg-4 bg-color-info">
+					<h4 class="font-color-general text-center p-3">Somos</h4>
 					<Nav class="list">
-						<h1 class="text-center">Somos</h1>
+
 						<ul>
 							<li> Clinica de animales domesticos.</li>
 							<li> Clinica de reptiles.</li>
@@ -108,14 +109,15 @@
 							<li> Accesorios</li>
 						</UL>
 					</Nav>
-
-					<p class="text-center">
-						<a href="#" class="font-weigth-bolder-bold text-white">Pide una cita</a>
-					</p>
 				</div>
-				<img src="../assets/images/local.jpeg" class="rounded mx-auto d-block" alt="breton">
-			</div>
-			
+
+
+				<div class="col-12 col-lg-4 bg-color-info">
+
+					<img src="../assets/images/camivet.jpeg" class="img__fluid" alt="camivet">
+
+				</div>
+
 			</div>
 
 		</section>
@@ -126,7 +128,10 @@
 
 
 	<!-- INICIO SECCIÓN FOOTER-->
-	<footer class="container-fluid bg-color-info p-3 font-color-general text-center">
+	<footer class="container-fluid bg-color-info p-4 font-color-general text-center"><a
+			href="https://www.facebook.com/"><i class="fi-snsuxl-facebook"></i></a>
+		<a href="https://www.instagram.com"><i class="fi-snsuxl-instagram"></i></a> <a
+			href=" https://wa.me/3364650527"><i class="fi-xnsuxl-whatsapp"></i></a>
 		<p class="m-3">
 			rafiki © 2022 - Todos los derechos reservados
 		</p>
