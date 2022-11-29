@@ -19,20 +19,26 @@ body {
 	color: rgb(67, 105, 176);
 	margin-left: 2rem;
 }
-.calendario {
-	width: 40%;
+
+.img__fluid {
+	width: 380px;
+	height: 270px;
+	margin-left: 4px;
+	margin-top: 80px;
+	margin-right: auto;
+}
+
+
+.img-fluid {
+	width: 420px;
+	margin-left: 4px;
+	margin-top: 45px;
+	margin-right: auto;
+}
+
+.rounded {
+	width: 30%;
 	height: auto;
-	margin-left: 5%;
-	
-	
-	
-	background-color: rgba(250, 235, 215, 0.342);
- }
- 
-
-
-.rounded {width: 30%;
-height:auto;
 
 }
 
@@ -75,6 +81,7 @@ height:auto;
 /*formulario*/
 .flex-container {
 <<<<<<< HEAD
+<<<<<<< HEAD
 	width: 99%;
 	height: auto;
 	margin-top: 80px;
@@ -83,6 +90,11 @@ height:auto;
 	height:auto;
     margin-top: 80px;
 >>>>>>> ed793cb (tercera rev)
+=======
+	width: 99%;
+	height: auto;
+	margin-top: 80px;
+>>>>>>> 6592c51 (tercera version)
 	margin-left: auto;
 	margin-right: auto;
 	display: flex;
@@ -95,10 +107,13 @@ height:auto;
 	outline: 4px solid rgb(66, 82, 221);
 
 }
-.formulario{ width:350px;
-height: auto;
+
+.formulario {
+	width: 350px;
+	height: auto;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 .formulario {
 	width: 350px;
@@ -161,44 +176,66 @@ height: auto;
 =======
 	
 .form{
+=======
+
+.form {
+>>>>>>> 6592c51 (tercera version)
 	min-width: 75%;
-	flex:  1;
-	text-align:center ; 
-	padding:30px;
-	order: 5}
-
-	
-	#form_input{
-		width: 100%;
-	   padding:7px;
-	   margin: 6px 0 ;
-	   border: none;
-	   border-bottom: 3px  solid rgb(98, 159, 216);
-	   background:rgb(246, 250, 252);
-	   color: rgb(1, 13, 17);
-	   
-	   
-	   }
-	   #form_input :focus {background: linear-gradient(to bottom, transparent, #111);
-		outline: none;
-		width: 100%;
-		
-		border-bottom: 3px solid rgb(33, 7, 66);}
-		
-		.form textarea { min-height: 140px;
-		resize: none; }
-
-#form_input[type="submit"] {background-color: rgb(93, 162, 189);
-border-bottom: none;
-padding:12px ;}
-
-#form_input[type="submit"]:hover {background-color: rgba(35, 53, 54, 0.747);
-border-bottom: none;
-padding:12px ;}
-#form_input[type="submit"]:focus {background-color: rgb(15, 61, 80);
+	flex: 1;
+	text-align: center;
+	padding: 30px;
+	order: 5
 }
+<<<<<<< HEAD
 #form_input[type="submit"]:active {background: linear-gradient(to bottom,rgb(17, 108, 192), #050);
 >>>>>>> ed793cb (tercera rev)
+=======
+
+
+#form_input {
+	width: 100%;
+	padding: 7px;
+	margin: 6px 0;
+	border: none;
+	border-bottom: 3px solid rgb(98, 159, 216);
+	background: rgb(246, 250, 252);
+	color: rgb(1, 13, 17);
+
+
+}
+
+#form_input :focus {
+	background: linear-gradient(to bottom, transparent, #111);
+	outline: none;
+	width: 100%;
+
+	border-bottom: 3px solid rgb(33, 7, 66);
+}
+
+.form textarea {
+	min-height: 140px;
+	resize: none;
+}
+
+#form_input[type="submit"] {
+	background-color: rgb(93, 162, 189);
+	border-bottom: none;
+	padding: 12px;
+}
+
+#form_input[type="submit"]:hover {
+	background-color: rgba(35, 53, 54, 0.747);
+	border-bottom: none;
+	padding: 12px;
+}
+
+#form_input[type="submit"]:focus {
+	background-color: rgb(15, 61, 80);
+}
+
+#form_input[type="submit"]:active {
+	background: linear-gradient(to bottom, rgb(17, 108, 192), #050);
+>>>>>>> 6592c51 (tercera version)
 }
 
 .bg-color-azul {
