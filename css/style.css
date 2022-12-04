@@ -80,21 +80,13 @@ body {
 
 /*formulario*/
 .flex-container {
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 	width: 99%;
 	height: auto;
 	margin-top: 80px;
-=======
 	width:99%;
 	height:auto;
     margin-top: 80px;
->>>>>>> ed793cb (tercera rev)
-=======
-	width: 99%;
-	height: auto;
-	margin-top: 80px;
->>>>>>> 6592c51 (tercera version)
 	margin-left: auto;
 	margin-right: auto;
 	display: flex;
@@ -113,8 +105,6 @@ body {
 	height: auto;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 .formulario {
 	width: 350px;
 	height: auto;
@@ -172,24 +162,20 @@ body {
 }
 
 #form_input[type="submit"]:active {
-	background: linear-gradient(to bottom, rgb(17, 108, 192), #050);
-=======
-	
-.form{
-=======
+	background: linear-gradient(to bottom, rgb(17, 108, 192), #050);}
+
 
 .form {
->>>>>>> 6592c51 (tercera version)
+
 	min-width: 75%;
 	flex: 1;
 	text-align: center;
 	padding: 30px;
 	order: 5
 }
-<<<<<<< HEAD
-#form_input[type="submit"]:active {background: linear-gradient(to bottom,rgb(17, 108, 192), #050);
->>>>>>> ed793cb (tercera rev)
-=======
+
+#form_input[type="submit"]:active {background: linear-gradient(to bottom,rgb(17, 108, 192), #050); }
+
 
 
 #form_input {
@@ -235,7 +221,7 @@ body {
 
 #form_input[type="submit"]:active {
 	background: linear-gradient(to bottom, rgb(17, 108, 192), #050);
->>>>>>> 6592c51 (tercera version)
+
 }
 
 .bg-color-azul {
