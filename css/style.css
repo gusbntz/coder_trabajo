@@ -1,0 +1,144 @@
+@charset "UTF-8";
+/* estilos generales para toda la página */
+body {
+  font-family: 'Karla', sans-serif;
+  font-family: 'Montserrat Alternates', sans-serif; }
+
+.bg-color-info {
+  background-color: #f4f6fb; }
+
+.font-color-general {
+  color: #4369b0; }
+
+.brand-name {
+  width: 25%;
+  height: auto;
+  color: #4369b0;
+  margin-left: 2rem; }
+
+.img-fluid {
+  width: 420px;
+  margin-left: 4px;
+  margin-top: 45px;
+  margin-right: auto; }
+
+.rounded {
+  width: 30%;
+  height: auto; }
+
+.img__fluid {
+  width: 380px;
+  height: 270px;
+  margin-left: 4px;
+  margin-top: 80px;
+  margin-right: auto; }
+
+.bg-img-principal {
+  background-image: url("../assets/images/main.jpg");
+  background-size: cover;
+  height: 650px;
+  background-position: center center; }
+
+.bloque-texto-principal {
+  margin-top: 0;
+  background-color: aqua; }
+
+/*formulario*/
+.flex-container {
+  width: 99%;
+  height: auto;
+  margin-top: 80px;
+  width: 99%;
+  height: auto;
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  background: #dde4f0;
+  padding: 20px;
+  border: 3px solid #000;
+  outline: 4px solid #4252dd; }
+
+.formulario {
+  width: 350px;
+  height: auto; }
+
+.form {
+  min-width: 75%;
+  flex: 1;
+  text-align: center;
+  padding: 30px;
+  order: 5; }
+
+#form_input {
+  width: 100%;
+  padding: 7px;
+  margin: 6px 0;
+  border: none;
+  border-bottom: 3px solid #629fd8;
+  background: #f6fafc;
+  color: #010d11; }
+
+#form_input :focus {
+  background: linear-gradient(to bottom, transparent, #111);
+  outline: none;
+  width: 100%;
+  border-bottom: 3px solid #210742; }
+
+.form textarea {
+  min-height: 140px;
+  resize: none; }
+
+#form_input[type="submit"] {
+  background-color: #5da2bd;
+  border-bottom: none;
+  padding: 12px; }
+
+#form_input[type="submit"]:hover {
+  background-color: rgba(35, 53, 54, 0.747);
+  border-bottom: none;
+  padding: 12px; }
+
+#form_input[type="submit"]:focus {
+  background-color: #0f3d50; }
+
+#form_input[type="submit"]:active {
+  background: linear-gradient(to bottom, #116cc0, #050); }
+
+.bg-color-azul {
+  background-color: #4369b0; }
+
+.hrblanco {
+  width: 10%;
+  background-color: white; }
+
+.hrazul {
+  width: 10%;
+  background-color: #f4f6fb; }
+
+.p-3 {
+  text-align: left;
+  margin: 0;
+  width: 90%; }
+
+/* estilos para pantallas menores a 992px (menor que lg de bootstrap) */
+@media only screen and (max-width: 992px) {
+  .brand-name {
+    width: 40%;
+    color: #4369b0;
+    margin-left: 1rem; }
+  .img-fluid {
+    width: 98%;
+    margin-left: 4px; }
+  .img__fluid {
+    width: 98%; }
+  /* tenemos 1 imagen específica para móvil */
+  .bg-img-principal {
+    background-image: url("../assets/images/main_movil.png");
+    background-size: cover;
+    height: 500px;
+    background-position: center center; }
+   }
