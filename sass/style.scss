@@ -1,0 +1,161 @@
+
+@import "variables";
+@import "main";
+
+
+
+$ancho: 650px;
+/* estilos generales para toda la página */
+
+.brand-name {
+	width: $ancho/3;
+	height: $au-tos;
+	color: $color-azulinob;
+	margin-left: 2rem;
+}
+
+body {
+	font-family: $tipografia-geneneral;
+
+
+	.font-color-general {
+		color: $un-color;
+
+		.bg-color-info {
+			background-color: $color-fondo;
+		}
+	}
+}
+
+/*inicio*/
+
+.bg-img-principal {
+	background-image: url("../assets/images/main.jpg");
+	background-size: cover;
+	height: 650px;
+	background-position: $bgn-posicion
+}
+
+/*nosotros*/
+
+
+.img__fluid {
+	width: 380px;
+	height: 270px;
+	margin-left: 4px;
+	margin-top: 80px;
+	margin-right: $au-tos;
+}
+
+/*consultas*/
+.container-fluid {
+	.flex-container {
+		width: 99%;
+		height: $au-tos;
+		margin-top: 80px;
+		width: 99%;
+		margin-left: $au-tos;
+		margin-right: $au-tos;
+		display: flex;
+		align-items: $general-center;
+		flex-wrap: wrap;
+		justify-content: $general-center;
+		background: $color-arena;
+		padding: $espaciado-veint;
+		border: 3px solid black;
+		outline: 4px solid $color-azul;
+	}
+}
+
+.form {
+	text-align: $general-center;
+	color: $un-color;
+	min-width: 75%;
+}
+
+.formulario {
+
+	width: 350px;
+	height: $au-tos;
+}
+
+#form_input {
+	width: 100%;
+	padding: $espaciado-siete;
+	margin: 6px 0;
+	border: none;
+	border-bottom: 3px solid $un-color;
+	background: $color-arena;
+	color: $color-negro;
+}
+
+#form_input[type="submit"]:hover {
+	background-color: $un-color;
+	border-bottom: none;
+	padding: $espaciado-doce;
+}
+
+#form_input[type="submit"]:active {
+	background: linear-gradient(to bottom, $color-arena, $color-boton);
+}
+
+/*servicios*/
+.img-fluid {
+	width: 423px;
+	margin-left: 3px;
+	margin-top: 45px;
+	margin-right: $au-tos;
+}
+
+.bg-color-azul {
+	background-color: $color-bgn;
+}
+
+.hrblanco {
+	width: 10%;
+	background-color: $color-arena;
+}
+
+.hrazul {
+	width: 10%;
+	background-color: $color-fondo;
+}
+
+.p-3 {
+	text-align: left;
+	margin: 0;
+	width: 90%;
+}
+
+/* estilos para pantallas menores a 992px (menor que lg de bootstrap) */
+@media only screen and (max-width : 992px) {
+
+	.brand-name {
+		width: $ancho/3.5;
+		color: $color-azulinob;
+		margin-left: 1rem;
+	}
+
+	.flex-container {
+		background-color: $color-arena ;
+	}
+
+	.img-fluid {
+		width: 98%;
+		margin-left: 4px;
+	}
+
+	.img__fluid {
+		width: 98%;
+	}
+
+	/* tenemos 1 imagen específica para móvil */
+	.bg-img-principal {
+		background-image: url("../assets/images/main_movil.png");
+		background-size: cover;
+		height: 500px;
+		background-position: center center;
+	}
+
+
+}

@@ -1,0 +1,9 @@
+@mixin color {
+    background-color: aquamarine;
+
+}
+
+.color-1{
+@include color;
+
+}

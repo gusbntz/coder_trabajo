@@ -79,26 +79,31 @@
 	</nav>
 
 
-<body>
-	<main>
-		<section class="container-fluid" id="cunsultas">
-			
-<section class="form" ><h1>Solicite un turno.</h1>
+	<body>
+		<main>
+			<section class="container-fluid" id="cunsultas">
 
-    
-<div class="flex-container">
-     <div class="formulario">
- <form method="POST" action="enviar_consulta">  
-   	<div class="form__section">
-      
+				<section class="form">
+					<h1>Solicite un turno.</h1>
 
-      <input id="form_input" type="text" name="nombre" placeholder="Nombre" maxlength="30" required></div>
 
-   <div class="formulario"> 
-   <div class="form__section">
-      <input id="form_input" type="text" name="apellido" placeholder="Apellido" maxlength="50"required></div>
+					<div class="flex-container">
+						<div class="formulario">
+							<form method="POST" action="enviar_consulta">
+								<div class="form__section">
 
-				<div class="formulario">
+
+									<input id="form_input" type="text" name="nombre" placeholder="Nombre" maxlength="30"
+										required>
+								</div>
+
+								<div class="formulario">
+									<div class="form__section">
+										<input id="form_input" type="text" name="apellido" placeholder="Apellido"
+											maxlength="50" required>
+									</div>
+
+									<div class="formulario">
 										<div class="form__section">
 											<input id="form_input" type="number" name="edad" min="13" max="105"
 												placeholder="Edad" required>
