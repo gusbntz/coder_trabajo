@@ -1,5 +1,2 @@
 
-.color-1{
-    @include color;
-    
-    }
+.row  { background-color: map-get($map: $color-fondo, color );}
