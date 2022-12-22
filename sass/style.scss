@@ -1,6 +1,6 @@
 
 @import 'variables';
-@import 'main';
+
 
 
 
@@ -46,15 +46,29 @@ body {
 	margin-top: 80px;
 	margin-right: $au-tos;
 }
+.list{
+	background-color:$color-fondo;
+	height: 270px;
+	margin-top: 80px;
+	 margin-left: 25px;}
+
+@mixin porcent-ancho ($w: 99%)
+{        width: $w;  
+	width: $w;
+
+}
+
+
+
+
 
 /*consultas*/
 .container-fluid {
 	.flex-container {
-		width: 99%;
+		@include porcent-ancho;
 		height: $au-tos;
 		margin-top: 80px;
-		width: 99%;
-		margin-left: $au-tos;
+	    margin-left: $au-tos;
 		margin-right: $au-tos;
 		display: flex;
 		align-items: $general-center;
@@ -66,6 +80,7 @@ body {
 		outline: 4px solid $color-azul;
 	}
 }
+
 
 .form {
 	text-align: $general-center;
@@ -110,23 +125,6 @@ body {
 .bg-color-azul {
 	background-color: $color-bgn;
 }
-
-.hrblanco {
-	width: 10%;
-	background-color: $color-arena;
-}
-
-.hrazul {
-	width: 10%;
-	background-color: $color-fondo;
-}
-
-.p-3 {
-	text-align: left;
-	margin: 0;
-	width: 90%;
-}
-
 /* estilos para pantallas menores a 992px (menor que lg de bootstrap) */
 @media only screen and (max-width : 992px) {
 
@@ -151,11 +149,11 @@ body {
 
 	/* tenemos 1 imagen específica para móvil */
 	.bg-img-principal {
-		background-image: url("../assets/images/main_movil.png");
+		background-image: url("../assets/images/cobayos.png");
 		background-size: cover;
 		height: 500px;
 		background-position: center center;
 	}
-
-	
 }
+	
+
